@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Moon Cafe — Timothy Chang</title>
+<meta name="description" content="Moon Cafe — a conceptual space-inspired café brand identity by Timothy Chang." />
+<link rel="stylesheet" href="css/style.css" />
+<style>
+  :root{--case-accent: var(--mc-orange);}
+  .case-hero-title .case-banner.wordmark{margin-top:10px}
+  .case-hero-copy{margin-top:28px}
+  .case-hero-copy .lead{margin-bottom:14px}
+  .case-hero-copy .lead:last-child{margin-bottom:0}
+  .case-section:has(.palette) .case-split{align-items:center}
+  .palette{
+    flex-direction:row;flex-wrap:nowrap;
+    margin-top:20px;
+  }
+  .shot-grid{display:grid;grid-template-columns:repeat(3, 1fr);gap:28px}
+  .shot-grid img,
+  .shot-grid button{margin:0}
+  @media (min-width:901px){
+    .case-hero .wrap{max-width:1560px}
+    .case-hero .case-split{grid-template-columns:1fr 1.3fr;gap:64px}
+    .case-section:has(.palette) .wrap{max-width:1560px}
+    .case-section:has(.palette) .case-split{grid-template-columns:1.3fr 1fr;gap:64px}
+  }
+</style>
+</head>
+<body class="page-fade">
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">TC</a>
+    <div class="nav-links">
+      <a href="index.html#projects" class="nav-link" data-page="index.html" data-section="projects">Projects</a>
+      <a href="about.html" class="nav-link" data-page="about.html">About</a>
+      <div class="nav-item-dropdown">
+        <button type="button" class="nav-dropdown-toggle" data-page-group="photography.html,gallery-sd.html,art.html" aria-haspopup="true" aria-expanded="false">
+          Hobbies
+          <svg class="nav-caret" viewBox="0 0 12 12" width="10" height="10" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M2.5 4.5 6 8l3.5-3.5"/></svg>
+        </button>
+        <div class="nav-dropdown">
+          <a href="photography.html" data-page="photography.html">Photography</a>
+          <a href="art.html" data-page="art.html">Art</a>
+        </div>
+      </div>
+      <a href="contact.html" class="nav-link" data-page="contact.html">Contact</a>
+    </div>
+    <button class="nav-burger" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+
+<header class="case-hero">
+  <div class="wrap">
+    <div class="case-split">
+      <div>
+        <div class="case-hero-title">
+          <p class="case-eyebrow reveal">Brand Identity — 2026</p>
+          <div class="case-banner wordmark reveal">
+            <img src="https://framerusercontent.com/images/l1FOfGbmUDuxQCDvmfdBM30vNyo.png?width=2200" alt="Moon Cafe wordmark banner" />
+          </div>
+        </div>
+        <div class="case-hero-copy">
+          <p class="lead reveal">Moon Cafe is a conceptual café brand identity project that explores a space-inspired theme, focusing on visual cohesion and a consistent design language across all brand elements.</p>
+          <p class="lead reveal">A strong brand needs a website that feels consistent with its identity and values. To explore this, I designed and prototyped a website in Figma.</p>
+        </div>
+      </div>
+      <div class="case-video reveal">
+        <video
+          src="https://framerusercontent.com/assets/9TeikkadiHoWYbpRKl0PowftgY.mp4"
+          controls muted loop playsinline preload="metadata"
+          aria-label="Moon Cafe prototype walkthrough"
+        ></video>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="case-section">
+    <div class="wrap">
+      <div class="case-split reveal">
+        <div class="tilt-photo">
+          <img src="https://framerusercontent.com/images/5WNABqZg14z48t8b4x3hbBumOY.png?width=900" alt="Moon Cafe product mockup" loading="lazy" />
+        </div>
+        <div>
+          <p class="eyebrow">Color Palette</p>
+          <p class="lead">Moon Cafe uses a mix of three main colors, with mixes of neutral tones in between designs. The prominent color is a dark navy, representing the depth and vastness of space. A bright orange complements this navy, creating balance in the palette. An addition of a light lavender creates an other-worldly feeling, while the light tone keeps the palette grounded against the more vibrant orange and navy.</p>
+          <div class="palette reveal-stagger">
+            <button class="swatch" data-hex="#FBB040" style="background:#FBB040">
+              <span class="swatch-hex">#FBB040</span>
+            </button>
+            <button class="swatch" data-hex="#0D142D" style="background:#0D142D">
+              <span class="swatch-hex">#0D142D</span>
+            </button>
+            <button class="swatch" data-hex="#CBBACC" style="background:#CBBACC">
+              <span class="swatch-hex">#CBBACC</span>
+            </button>
+            <button class="swatch" data-hex="#33557F" style="background:#33557F">
+              <span class="swatch-hex">#33557F</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="case-section">
+    <div class="wrap">
+      <p class="eyebrow reveal">Typography</p>
+      <p class="lead reveal">For the primary typographic elements of Moon Cafe, the Avenir typeface was an ideal choice. Its extensive range of weights and styles allows for a cohesive visual identity while maintaining sufficient flexibility for variation. The clean, geometric sans-serif design aligns seamlessly with the café's minimal, space-inspired aesthetic, while its subtle humanist qualities preserve warmth and visual impact.</p>
+      <p class="eyebrow reveal" style="margin-top:44px">Avenir Font Family</p>
+      <div class="type-specimen reveal">
+        <div class="type-row"><span class="label">Heavy</span><span class="sample w-heavy">Moon Cafe</span></div>
+        <div class="type-row"><span class="label">Bold</span><span class="sample w-bold">Moon Cafe</span></div>
+        <div class="type-row"><span class="label">Medium</span><span class="sample w-medium">Moon Cafe</span></div>
+        <div class="type-row"><span class="label">Regular</span><span class="sample w-regular">Moon Cafe</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="case-section">
+    <div class="wrap">
+      <p class="eyebrow reveal">Logo Designs</p>
+      <p class="lead reveal">This collection presents three logo variations developed for distinct brand applications. Variation 1 functions as a visual anchor, balancing overall compositions through contrast and form — a dark navy palette complemented by a vibrant orange crescent creates a strong focal point. Variation 2 serves as the primary mark, designed to represent the brand in its most concise and recognizable form. Variation 3 extends the identity system into a sub-brand application for Moon Cafe apparel, introducing clear visual distinction while maintaining consistency with the core brand.</p>
+      <div class="logo-grid reveal-stagger">
+        <div class="logo-tile">
+          <span class="num">1</span>
+          <img src="https://framerusercontent.com/images/hItsW4MGl3HlsoeC6Ty1rk1pN0.png?width=700" alt="Moon Cafe logo variation 1" loading="lazy" />
+        </div>
+        <div class="logo-tile">
+          <span class="num">2</span>
+          <img src="https://framerusercontent.com/images/WsYYILsRCi4N1EmO3rBw056CwGA.png?width=700" alt="Moon Cafe logo variation 2" loading="lazy" />
+        </div>
+        <div class="logo-tile">
+          <span class="num">3</span>
+          <img src="https://framerusercontent.com/images/E7F54rwqMMgl4Ddn6S3TFRPBmg.png?width=700" alt="Moon Cafe logo variation 3" loading="lazy" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="case-section">
+    <div class="wrap">
+      <p class="eyebrow reveal">Product Mockups</p>
+      <p class="lead reveal">Mockups serve as high-fidelity visual representations of the final brand experience, bridging concept and reality by illustrating how the identity functions in everyday use.</p>
+      <div class="shot-grid reveal-stagger" id="mc-mockups"></div>
+    </div>
+  </section>
+</main>
+
+<div class="next-project-band">
+  <div class="wrap">
+    <a href="hazard.html" class="next-project next-project-right">
+      <span class="next-project-text">
+        <span class="next-project-label">Next Project</span>
+        <span class="next-project-name">Hazard</span>
+      </span>
+      <svg class="next-project-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+    </a>
+  </div>
+</div>
+
+<footer>
+  <div class="wrap footer-inner">
+    <p class="footer-copy">&copy; 2026 Timothy Chang</p>
+    <div class="footer-icons">
+      <a href="https://www.linkedin.com/in/timothy-chang-924921252/" target="_blank" rel="noopener" aria-label="LinkedIn">
+        <svg viewBox="0 0 24 24"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.11 20.45H3.56V9h3.55v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg>
+      </a>
+      <a href="mailto:timchaang@gmail.com" aria-label="Email">
+        <svg viewBox="0 0 24 24"><path d="M2 4h20a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1zm1.4 2 8.6 6.9L20.6 6H3.4zM3 7.4V18h18V7.4l-9 7.2-9-7.2z"/></svg>
+      </a>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+<script>
+  var mockups = [
+    "zwNyOBYW4mPGbXQ04xjLr7i5f4k",
+    "z14yFHy9l4XezvSnp4z1Wiq0EU",
+    "NsVXaHXiAkBRGrzZblcR2xVFkc",
+    "xmyy6N7Xf0qntWj9bAe3fCd5QHI",
+    "dSbYklxx3LeXcaMr7vdDRq1QniA",
+    "orYCjN7PDMBTR2quHwlOKoQADwU"
+  ];
+  var grid = document.getElementById("mc-mockups");
+  mockups.forEach(function (id) {
+    var btn = document.createElement("button");
+    btn.type = "button";
+    btn.setAttribute("data-lightbox", "https://framerusercontent.com/images/" + id + ".png?width=1600");
+    var img = document.createElement("img");
+    img.loading = "lazy";
+    img.alt = "Moon Cafe product mockup";
+    img.src = "https://framerusercontent.com/images/" + id + ".png?width=900";
+    btn.appendChild(img);
+    grid.appendChild(btn);
+  });
+</script>
+</body>
+</html>

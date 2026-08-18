@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Contact — Timothy Chang</title>
+<meta name="description" content="Get in touch with Timothy Chang." />
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="page-fade">
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">TC</a>
+    <div class="nav-links">
+      <a href="index.html#projects" class="nav-link" data-page="index.html" data-section="projects">Projects</a>
+      <a href="about.html" class="nav-link" data-page="about.html">About</a>
+      <div class="nav-item-dropdown">
+        <button type="button" class="nav-dropdown-toggle" data-page-group="photography.html,gallery-sd.html,art.html" aria-haspopup="true" aria-expanded="false">
+          Hobbies
+          <svg class="nav-caret" viewBox="0 0 12 12" width="10" height="10" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M2.5 4.5 6 8l3.5-3.5"/></svg>
+        </button>
+        <div class="nav-dropdown">
+          <a href="photography.html" data-page="photography.html">Photography</a>
+          <a href="art.html" data-page="art.html">Art</a>
+        </div>
+      </div>
+      <a href="contact.html" class="nav-link active" data-page="contact.html">Contact</a>
+    </div>
+    <button class="nav-burger" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+
+<header class="contact-hero">
+  <div class="contact-bg-letters" aria-hidden="true"></div>
+  <div class="contact-bg-letters contact-bg-letters-glow" aria-hidden="true"></div>
+  <div class="wrap contact-inner">
+    <p class="case-eyebrow reveal">Say Hello</p>
+    <h1 class="case-title reveal" style="font-size:clamp(34px,6vw,64px)">Get in Touch</h1>
+
+    <div class="contact-grid">
+      <form id="contact-form" class="reveal" novalidate>
+        <div class="field">
+          <label for="name">Name <span aria-hidden="true">*</span></label>
+          <input type="text" id="name" name="name" required />
+          <p class="field-error">Please enter your name.</p>
+        </div>
+        <div class="field">
+          <label for="email">Email <span aria-hidden="true">*</span></label>
+          <input type="email" id="email" name="email" required />
+          <p class="field-error">Please enter a valid email address.</p>
+        </div>
+        <div class="field">
+          <label for="subject">Subject <span aria-hidden="true">*</span></label>
+          <input type="text" id="subject" name="subject" required />
+          <p class="field-error">Please enter a subject.</p>
+        </div>
+        <div class="field">
+          <label for="message">Message <span aria-hidden="true">*</span></label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+          <p class="field-error">Please enter a message.</p>
+        </div>
+        <div class="form-actions">
+          <button type="submit" class="btn btn-accent">
+            Submit
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </button>
+          <a href="https://drive.google.com/file/d/163rN9_kF5eBWDZHMXtuJeaHaZzYS9CJe/view?usp=sharing" target="_blank" rel="noopener" class="btn">
+            View Resume
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+        </div>
+        <p class="form-status" role="status"></p>
+      </form>
+
+      <div class="contact-side reveal">
+        <p class="contact-note">Let's connect. I usually respond within a day or two.</p>
+      </div>
+    </div>
+  </div>
+</header>
+
+<footer>
+  <div class="wrap footer-inner">
+    <p class="footer-copy">&copy; 2026 Timothy Chang</p>
+    <div class="footer-icons">
+      <a href="https://www.linkedin.com/in/timothy-chang-924921252/" target="_blank" rel="noopener" aria-label="LinkedIn">
+        <svg viewBox="0 0 24 24"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.11 20.45H3.56V9h3.55v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg>
+      </a>
+      <a href="mailto:timchaang@gmail.com" aria-label="Email">
+        <svg viewBox="0 0 24 24"><path d="M2 4h20a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1zm1.4 2 8.6 6.9L20.6 6H3.4zM3 7.4V18h18V7.4l-9 7.2-9-7.2z"/></svg>
+      </a>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

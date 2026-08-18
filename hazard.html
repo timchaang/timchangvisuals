@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Hazard — Timothy Chang</title>
+<meta name="description" content="Hazard — a custom automotive-inspired playing card deck by Timothy Chang." />
+<link rel="stylesheet" href="css/style.css" />
+<style>
+  :root{--case-accent: var(--hz-crimson);}
+  .case-title{color:var(--hz-crimson);text-transform:uppercase}
+  .photo-interlude + .photo-duo{margin-top:28px}
+  .icon-row{
+    display:grid;grid-template-columns:repeat(3, 1fr);gap:18px;
+    max-width:420px;margin:32px auto 0;
+  }
+  .icon-tile{width:100%;height:auto;aspect-ratio:1/1}
+  @media (min-width:901px){
+    .case-section:has(.case-split) .wrap{max-width:1560px}
+    .case-split{grid-template-columns:1fr 1.3fr;gap:64px}
+    .case-split.reverse{grid-template-columns:1.3fr 1fr}
+    .case-section:has(.palette) .wrap{max-width:1800px}
+    .palette{flex-wrap:nowrap}
+  }
+  @media (max-width:900px){
+    .palette{
+      display:grid;grid-template-columns:repeat(2, 150px);
+      gap:16px;justify-content:center;
+    }
+  }
+</style>
+</head>
+<body class="page-fade">
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">TC</a>
+    <div class="nav-links">
+      <a href="index.html#projects" class="nav-link" data-page="index.html" data-section="projects">Projects</a>
+      <a href="about.html" class="nav-link" data-page="about.html">About</a>
+      <div class="nav-item-dropdown">
+        <button type="button" class="nav-dropdown-toggle" data-page-group="photography.html,gallery-sd.html,art.html" aria-haspopup="true" aria-expanded="false">
+          Hobbies
+          <svg class="nav-caret" viewBox="0 0 12 12" width="10" height="10" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M2.5 4.5 6 8l3.5-3.5"/></svg>
+        </button>
+        <div class="nav-dropdown">
+          <a href="photography.html" data-page="photography.html">Photography</a>
+          <a href="art.html" data-page="art.html">Art</a>
+        </div>
+      </div>
+      <a href="contact.html" class="nav-link" data-page="contact.html">Contact</a>
+    </div>
+    <button class="nav-burger" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+
+<header class="case-hero">
+  <div class="wrap">
+    <p class="case-eyebrow reveal">Personal Project — 2025</p>
+    <h1 class="case-title reveal">Hazard</h1>
+    <p class="lead reveal">Hazard is a personal design project focused on developing a fully custom deck of playing cards, challenging me to explore automotive-inspired visuals while maintaining consistency across typography, color, patterns, and overall design language.</p>
+    <div class="case-banner reveal">
+      <img src="https://framerusercontent.com/images/EBvTuA1VgbrSN6vRGR4FnVAV7E.png?width=2200" alt="Hazard playing card deck, full spread" loading="lazy" />
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="case-section">
+    <div class="wrap">
+      <p class="eyebrow reveal">Color Palette</p>
+      <div class="case-split reveal">
+        <div>
+          <p class="lead">Hazard is built on a deliberate two-color system. A vibrant crimson anchors the visual identity, evoking the tension and risk inherent to motorsport. Paired against it, a light grey draws from the asphalt itself — the raw surface that defines every race. Together, the palette communicates both danger and discipline. Both hues extend into deeper, darker tones, introducing shadow and dimension that give the palette its weight.</p>
+          <div class="palette">
+            <button class="swatch" data-hex="#DE2E27" style="background:#DE2E27">
+              <span class="swatch-hex">#DE2E27</span>
+            </button>
+            <button class="swatch" data-hex="#6D0300" style="background:#6D0300">
+              <span class="swatch-hex">#6D0300</span>
+            </button>
+            <button class="swatch" data-hex="#A7B8C1" style="background:#A7B8C1">
+              <span class="swatch-hex">#A7B8C1</span>
+            </button>
+            <button class="swatch" data-hex="#2C2D31" style="background:#2C2D31">
+              <span class="swatch-hex">#2C2D31</span>
+            </button>
+          </div>
+        </div>
+        <div class="tilt-photo">
+          <img src="https://framerusercontent.com/images/bgvkHRzqaKWtRUFujdznJOw7wpY.png?width=1200" alt="Hazard color palette applied to the deck" loading="lazy" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="case-section">
+    <div class="wrap">
+      <div class="case-split reverse reveal">
+        <div class="tilt-photo">
+          <img src="https://framerusercontent.com/images/Kj4IHAfLIpWhjvl6OUGdMZD3dE.png?width=1200" alt="Hazard iconography on a card face" loading="lazy" />
+        </div>
+        <div>
+          <p class="eyebrow reveal">Iconography</p>
+          <p class="lead">Hazard's icon design is rooted in the hazard light — a universal signal of danger, found on every vehicle and activated in moments of risk. This symbol forms the foundation of the primary mark, directly connecting the logo to the world of motorsport. From there, the concept extends throughout the system, with variations derived from each suit within the deck, adapting the core form to reflect the distinct role and hierarchy of each.</p>
+          <div class="icon-row reveal-stagger">
+            <div class="icon-tile"><img src="https://framerusercontent.com/images/t6SuoS2rO03ZrApoROMGQKHflk.png?width=350" alt="Hazard icon mark" loading="lazy" /></div>
+            <div class="icon-tile"><img src="https://framerusercontent.com/images/qsAAgJWLKUxcHuB6ewWJOAPwgTk.png?width=290" alt="Hazard suit icon" loading="lazy" /></div>
+            <div class="icon-tile"><img src="https://framerusercontent.com/images/Sdl7Qx9aj0Cz4VceMj5PSz2AE.png?width=350" alt="Hazard suit icon" loading="lazy" /></div>
+            <div class="icon-tile"><img src="https://framerusercontent.com/images/IvK4MAuu6sa0Z3h6LI4LUsWGk4s.png?width=350" alt="Hazard suit icon" loading="lazy" /></div>
+            <div class="icon-tile"><img src="https://framerusercontent.com/images/a5NjMlJgLs1MFJm3jDSeYJtzMSg.png?width=350" alt="Hazard suit icon" loading="lazy" /></div>
+            <div class="icon-tile"><img src="https://framerusercontent.com/images/rIXvwrFrSoz3zpEBKrjUGtbLuE.png?width=350" alt="Hazard suit icon" loading="lazy" /></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="case-section">
+    <div class="wrap">
+      <button type="button" class="photo-interlude reveal" data-lightbox="https://framerusercontent.com/images/xqx7DUmaSQtrMFIONH7LWNJCAmQ.png?width=1800">
+        <img src="https://framerusercontent.com/images/xqx7DUmaSQtrMFIONH7LWNJCAmQ.png?width=1600" alt="Hazard back cover — Alfa Romeo Giulia wheel illustration" loading="lazy" />
+      </button>
+      <div class="photo-duo reveal-stagger">
+        <button type="button" data-lightbox="https://framerusercontent.com/images/GfxUTjSybtTndG13Ik3j0Ehq7vc.png?width=1800">
+          <img src="https://framerusercontent.com/images/GfxUTjSybtTndG13Ik3j0Ehq7vc.png?width=1000" alt="Hazard card design detail" loading="lazy" />
+        </button>
+        <button type="button" data-lightbox="https://framerusercontent.com/images/HBcVWsTCIxvQnnLtV6TFLZv3z4.png?width=1800">
+          <img src="https://framerusercontent.com/images/HBcVWsTCIxvQnnLtV6TFLZv3z4.png?width=1600" alt="Hazard card design detail" loading="lazy" />
+        </button>
+      </div>
+    </div>
+  </section>
+</main>
+
+<div class="next-project-band">
+  <div class="wrap">
+    <a href="moon-cafe.html" class="next-project next-project-left">
+      <svg class="next-project-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M19 12H5M11 6l-6 6 6 6"/></svg>
+      <span class="next-project-text">
+        <span class="next-project-label">Previous Project</span>
+        <span class="next-project-name">Moon Cafe</span>
+      </span>
+    </a>
+  </div>
+</div>
+
+<footer>
+  <div class="wrap footer-inner">
+    <p class="footer-copy">&copy; 2026 Timothy Chang</p>
+    <div class="footer-icons">
+      <a href="https://www.linkedin.com/in/timothy-chang-924921252/" target="_blank" rel="noopener" aria-label="LinkedIn">
+        <svg viewBox="0 0 24 24"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.11 20.45H3.56V9h3.55v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg>
+      </a>
+      <a href="mailto:timchaang@gmail.com" aria-label="Email">
+        <svg viewBox="0 0 24 24"><path d="M2 4h20a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1zm1.4 2 8.6 6.9L20.6 6H3.4zM3 7.4V18h18V7.4l-9 7.2-9-7.2z"/></svg>
+      </a>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
