@@ -1,1 +1,6 @@
 .claude/
+
+# full-size film originals; the site uses the web/ and thumb/ copies
+images/film/*.jpg
+images/film/*.tif
+images/film/*.tiff
