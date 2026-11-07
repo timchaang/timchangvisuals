@@ -206,6 +206,7 @@ h2.section-title{
 
 /* ---------- Home: Projects ---------- */
 .projects{padding-top:60px}
+.projects + .projects{padding-top:0}
 body.home main,
 body.home footer{position:relative;z-index:1;background:var(--bg)}
 .projects-grid{display:grid;grid-template-columns:1fr 1fr;gap:28px}
@@ -274,6 +275,11 @@ body.home footer{position:relative;z-index:1;background:var(--bg)}
 .next-project:hover .next-project-name{color:var(--case-accent, var(--accent))}
 .next-project-right:hover .next-project-arrow{transform:translateX(10px)}
 .next-project-left:hover .next-project-arrow{transform:translateX(-10px)}
+.next-project-both{display:flex;align-items:center;justify-content:space-between;gap:8px 32px;flex-wrap:wrap}
+@media (max-width:640px){
+  .next-project-both .next-project{padding:32px 0}
+  .next-project-both .next-project-right{margin-left:auto}
+}
 
 /* ---------- Footer ---------- */
 footer{border-top:1px solid var(--line);padding:48px 0}
